@@ -10,7 +10,12 @@
     <h1>Tic Tac Toe</h1>
     <div id="gameboard">
     </div>
-    <div class="controller-buttons"><button id="start">Start</button><button id="reset-button">Reset</button> </div>
+    <div class="controller-buttons">
+        <button id="start">Start</button>
+        <select name="player" id="select-player">
+            <option value="X">X</option><option value="O">O</option>
+        </select><button id="reset-button">Reset</button> 
+    </div>
     <script src="game.js"></script>
 </body>
 </html>
