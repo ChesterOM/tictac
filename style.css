@@ -34,7 +34,7 @@ select {
 }
 
 .square {
-    background-color: rgba(0, 255, 255, 0.557);
+    background-color: rgba(0, 255, 255, 0);
     border: 1px black solid;
 }
 
