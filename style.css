@@ -4,6 +4,7 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.761);
+    font-family: 'Lumanosimo', cursive;
 }
 
 h1 {
@@ -31,9 +32,14 @@ select {
     background-color: lightgray;
     margin-bottom: 25px;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 
 .square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 78px;
     background-color: rgba(0, 255, 255, 0);
     border: 1px black solid;
 }
